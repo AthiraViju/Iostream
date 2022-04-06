@@ -47,7 +47,7 @@ class MessageController extends Controller
         $twilio = new Client($sid, $token);
 
         $body = "Hi Guyz, Please use the below link to join" .' '.'https://api.whatsapp.com/send/?phone=918594042036&text&app_absent=0';
-        $twilio->messages->create("whatsapp:+919656887895",["from" => "whatsapp:$wa_from", "body" => $body,"StatusCallback" => "https://evntr.co/callback.php"]);
+        $twilio->messages->create("whatsapp:+919787837947",["from" => "whatsapp:$wa_from", "body" => $body,"StatusCallback" => "https://evntr.co/callback.php"]);
         return redirect()->route('home');
 //        $order = \App\Models\User::factory()->create();
 //        $request->user()->notify(new MessageNotification($order));
