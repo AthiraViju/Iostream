@@ -129,5 +129,6 @@
                 </div>
             </div>
         </div>
+        <footer>Copyright Clare.AI</footer>
     </body>
 </html>
